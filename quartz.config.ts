@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "luizfernandosg.github.io/local-refi-toolkit",
+    baseUrl: "refidao.github.io/local-refi-toolkit",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

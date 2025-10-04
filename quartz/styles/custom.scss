@@ -502,8 +502,8 @@ body {
     height: 100%;
     z-index: -1;
     pointer-events: none;
-    opacity: 0.2;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='173.2' viewBox='0 0 100 173.2'%3E%3Cstyle%3E.dot%7Bfill:%231DB954;fill-opacity:0.9;r:3.5%7D%3C/style%3E%3Cg%3E%3C!-- Hexagonal grid of dots (without lines) --%3E%3Ccircle class='dot' cx='25' cy='0' /%3E%3Ccircle class='dot' cx='75' cy='0' /%3E%3Ccircle class='dot' cx='0' cy='43.3' /%3E%3Ccircle class='dot' cx='50' cy='43.3' /%3E%3Ccircle class='dot' cx='100' cy='43.3' /%3E%3Ccircle class='dot' cx='25' cy='86.6' /%3E%3Ccircle class='dot' cx='75' cy='86.6' /%3E%3Ccircle class='dot' cx='0' cy='129.9' /%3E%3Ccircle class='dot' cx='50' cy='129.9' /%3E%3Ccircle class='dot' cx='100' cy='129.9' /%3E%3Ccircle class='dot' cx='25' cy='173.2' /%3E%3Ccircle class='dot' cx='75' cy='173.2' /%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.15;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='173.2' viewBox='0 0 100 173.2'%3E%3Cstyle%3E.dot%7Bfill:%23214033;fill-opacity:0.9;r:3.5%7D%3C/style%3E%3Cg%3E%3C!-- Hexagonal grid of dots (without lines) --%3E%3Ccircle class='dot' cx='25' cy='0' /%3E%3Ccircle class='dot' cx='75' cy='0' /%3E%3Ccircle class='dot' cx='0' cy='43.3' /%3E%3Ccircle class='dot' cx='50' cy='43.3' /%3E%3Ccircle class='dot' cx='100' cy='43.3' /%3E%3Ccircle class='dot' cx='25' cy='86.6' /%3E%3Ccircle class='dot' cx='75' cy='86.6' /%3E%3Ccircle class='dot' cx='0' cy='129.9' /%3E%3Ccircle class='dot' cx='50' cy='129.9' /%3E%3Ccircle class='dot' cx='100' cy='129.9' /%3E%3Ccircle class='dot' cx='25' cy='173.2' /%3E%3Ccircle class='dot' cx='75' cy='173.2' /%3E%3C/g%3E%3C/svg%3E");
     background-size: 50px 86.6px;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -573,77 +573,15 @@ body {
   width: 0 !important;
 }
 
-/* Adjust content to match header width and alignment */
+/* Adjust content to take full width */
 .center {
   grid-column: 1 / 4 !important;
   width: 100%;
-  max-width: 1200px; /* Match the container class max-width */
+  max-width: 900px;
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
   box-sizing: border-box;
-}
-
-/* Ensure consistent article width but limit text width for readability */
-.center article {
-  width: 100%;
-  max-width: 100%;
-}
-
-/* Improve article content readability with appropriate width */
-.center article p,
-.center article ul,
-.center article ol,
-.center article h1,
-.center article h2,
-.center article h3,
-.center article h4,
-.center article h5,
-.center article h6,
-.center article blockquote,
-.center article pre,
-.center article table {
-  max-width: 750px; /* Optimal reading width */
-  margin-left: 0;
-  margin-right: auto;
-}
-
-/* Allow some elements to extend full width if needed */
-.center article .dashboard-tiles,
-.center article .project-tile,
-.center article .full-width,
-.center article img,
-.center article iframe {
-  max-width: 100%;
-}
-
-/* Make sure content has proper padding with fixed header */
-.page-header {
-  width: 100%;
-}
-
-/* Further improve content spacing */
-.center {
-  grid-column: 1 / 4 !important;
-  width: 100%;
-  max-width: 1200px; /* Match the container class max-width */
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  box-sizing: border-box;
-}
-
-/* Add proper spacing after elements */
-.center article > * {
-  margin-bottom: 1rem;
-}
-
-/* Add proper spacing between the article and footer */
-.center hr {
-  margin: 2rem 0;
-  max-width: 750px;
-  margin-left: 0;
-  margin-right: auto;
 }
 
 

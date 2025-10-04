@@ -24,9 +24,19 @@ const Header: QuartzComponentConstructor<Options> = (opts) => {
         <div className="container flex h-14 items-center">
           <div className="mr-4 flex">
             <a href="/" className="mr-6 flex items-center space-x-2">
-              <p style={{ margin: "0rem" }}>Ethereum Localism</p>
+              <p style={{ margin: "0rem" }}>Local ReFi Toolkit 🌱</p>
             </a>
           </div>
+          
+          {/* Desktop navigation - directly in header */}
+          <nav className="desktop-nav" style={{ display: "flex", gap: "1rem", fontSize: "0.9rem", marginRight: "auto" }}>
+            <a href="/">Home</a>
+            {Object.entries(links).map(([text, href]) => (
+              <a key={href} href={href}>{text}</a>
+            ))}
+            <a href="/introduction/action-kit">Action Kit</a>
+          </nav>
+          
           <div className="flex flex-1 items-center justify-end space-x-2">
             {/* Children (Darkmode, Search) are rendered here */}
             <div className="header-actions">
@@ -46,7 +56,7 @@ const Header: QuartzComponentConstructor<Options> = (opts) => {
             </button>
           </div>
 
-          {/* Navigation menu - moved inside container */}
+          {/* Navigation menu - mobile only */}
           <div id="nav-menu" className="nav-menu">
             <div className="nav-menu-content">
               <a href="/">Home</a>

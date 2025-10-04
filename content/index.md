@@ -6,8 +6,6 @@ cssclasses:
   - landing-page
 ---
 
-# 🧰 Local ReFi Toolkit
-
 *An open library of decentralized economic blueprints—designed by and for community builders*
 
 This collaborative, evolving resource documents how communities around the world are using Web3 tools to regenerate their local ecosystems and economies.

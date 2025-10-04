@@ -1,4 +1,13 @@
-# 🛠️ Internal Development Index
+---
+title: "🛠️ Internal Development Index"
+description: "Central navigation for all internal documentation, development guides, and project management resources"
+tags:
+  - internal
+  - dev-docs
+  - documentation
+  - development
+draft: false
+---
 
 **Last Updated:** October 4, 2025  
 **Purpose:** Central navigation for all internal documentation, development guides, and project management resources.

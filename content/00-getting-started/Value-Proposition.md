@@ -16,8 +16,6 @@ draft: false
 publish: true
 ---
 
-# Local ReFi Toolkit | Value Proposition
-
 *Why the Local ReFi Toolkit exists and who it serves*
 
 > [!info] Mission Statement

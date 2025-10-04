@@ -1,6 +1,16 @@
-# Understanding Regenerative Finance: A Complete Introduction
-
-**Your guide to the intersection of Web3 technology and environmental regeneration**
+---
+title: "Understanding Regenerative Finance: A Complete Introduction"
+description: "Your guide to the intersection of Web3 technology and environmental regeneration"
+tags:
+  - refi
+  - introduction
+  - getting-started
+  - web3
+  - climate
+  - regeneration
+draft: false
+publish: true
+---
 
 Welcome to the world of Regenerative Finance (ReFi) - a movement that's reshaping how we think about money, technology, and our planet's future. This guide will help you understand what ReFi is, why it matters, and how you can become part of building a regenerative economy.
 

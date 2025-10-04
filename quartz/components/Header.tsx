@@ -31,7 +31,6 @@ const Header: QuartzComponentConstructor<Options> = (opts) => {
           
           {/* Desktop navigation - directly in header */}
           <nav className="desktop-nav" style={{ display: "flex", gap: "1rem", fontSize: "0.9rem", marginRight: "auto" }}>
-            <a href="/">Home</a>
             {Object.entries(links).map(([text, href]) => (
               <a key={href} href={href}>{text}</a>
             ))}
@@ -60,7 +59,6 @@ const Header: QuartzComponentConstructor<Options> = (opts) => {
           {/* Navigation menu - mobile only */}
           <div id="nav-menu" className="nav-menu">
             <div className="nav-menu-content">
-              <a href="/">Home</a>
               {Object.entries(links).map(([text, href]) => (
                 <a key={href} href={href}>{text}</a>
               ))}

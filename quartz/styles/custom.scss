@@ -217,6 +217,20 @@ header {
   border-radius: 4px;
 }
 
+/* Desktop navigation link styling */
+header nav.desktop-nav a {
+  text-decoration: none;
+  color: var(--darkgray);
+  transition: all 0.2s ease;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+header nav.desktop-nav a:hover {
+  background-color: var(--secondary);
+  color: var(--light);
+}
+
 .header-wrapper {
   display: flex;
   flex-direction: column;
@@ -261,6 +275,12 @@ header .darkmode {
 
 header .darkmode:hover {
   background-color: var(--lightgray);
+  color: var(--light);
+}
+
+header .darkmode:hover svg {
+  stroke: var(--light);
+  fill: var(--light);
 }
 
 /* Style the Search button in the header */
@@ -292,6 +312,12 @@ header .search .search-button svg {
 
 header .search .search-button:hover {
   background-color: var(--lightgray);
+  color: var(--light);
+}
+
+header .search .search-button:hover svg {
+  stroke: var(--light);
+  fill: var(--light);
 }
 
 header .search .search-button p {
@@ -392,6 +418,11 @@ header .search .search-button p {
 
 .mobile-nav-trigger:hover {
   background-color: var(--lightgray);
+  color: var(--light);
+}
+
+.mobile-nav-trigger:hover svg {
+  stroke: var(--light);
 }
 
 /* Menu slide-in animation */

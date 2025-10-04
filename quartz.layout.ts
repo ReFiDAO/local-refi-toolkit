@@ -5,7 +5,14 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.Search(),
+    Component.Header({
+      title: "Local ReFi Toolkit 🌱",
+      links: {
+        "Playbooks": "/01-playbooks",
+        "Case Studies": "/02-case-studies",
+        "Resources": "/04-resources",
+      },
+    }),
   ],
   afterBody: [],
   footer: Component.Footer({
@@ -28,6 +35,7 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
+    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
@@ -43,6 +51,7 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
+    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],

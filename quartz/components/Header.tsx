@@ -12,9 +12,10 @@ interface Options {
 const Header: QuartzComponentConstructor<Options> = (opts) => {
   const title = opts?.title ?? "Ethereum Localism"
   const links = opts?.links ?? {
-    Introduction: "/introduction",
-    Library: "/library",
-    Resources: "/resources",
+    "Getting Started": "/00-getting-started/",
+    Playbooks: "/01-playbooks/",
+    "Case Studies": "/02-case-studies/",
+    Resources: "/04-resources/",
   }
 
   // This inner function is what gets called during rendering
@@ -34,7 +35,7 @@ const Header: QuartzComponentConstructor<Options> = (opts) => {
             {Object.entries(links).map(([text, href]) => (
               <a key={href} href={href}>{text}</a>
             ))}
-            <a href="/introduction/action-kit">Action Kit</a>
+            <a href="/INTERNAL-INDEX">Dev Docs</a>
           </nav>
           
           <div className="flex flex-1 items-center justify-end space-x-2">
@@ -63,7 +64,7 @@ const Header: QuartzComponentConstructor<Options> = (opts) => {
               {Object.entries(links).map(([text, href]) => (
                 <a key={href} href={href}>{text}</a>
               ))}
-              <a href="/introduction/action-kit">Action Kit</a>
+              <a href="/INTERNAL-INDEX">Dev Docs</a>
             </div>
           </div>
         </div>

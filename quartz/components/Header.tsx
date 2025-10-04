@@ -23,14 +23,14 @@ const Header: QuartzComponentConstructor<Options> = (opts) => {
     return (
       <header>
         <div className="container flex h-14 items-center">
-          <div className="mr-4 flex">
-            <a href="/" className="mr-6 flex items-center space-x-2">
-              <p style={{ margin: "0rem" }}>Local ReFi Toolkit 🌱</p>
+          <div className="mr-2 flex">
+            <a href="/" className="mr-4 flex items-center space-x-2">
+              <p style={{ margin: "0rem", fontSize: "1rem", fontWeight: "600" }}>Local ReFi Toolkit 🌱</p>
             </a>
           </div>
           
           {/* Desktop navigation - directly in header */}
-          <nav className="desktop-nav" style={{ display: "flex", gap: "1rem", fontSize: "0.9rem", marginRight: "auto" }}>
+          <nav className="desktop-nav" style={{ display: "flex", gap: "0.75rem", fontSize: "0.875rem", marginRight: "auto" }}>
             {Object.entries(links).map(([text, href]) => (
               <a key={href} href={href}>{text}</a>
             ))}

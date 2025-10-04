@@ -127,7 +127,13 @@ a {
   color: var(--secondary);
 
   &:hover {
-    color: var(--tertiary) !important;
+    color: var(--darkgray) !important; /* #214033 */
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--darkgray);
+    outline-offset: 2px;
+    border-radius: 2px;
   }
 
   &.internal {

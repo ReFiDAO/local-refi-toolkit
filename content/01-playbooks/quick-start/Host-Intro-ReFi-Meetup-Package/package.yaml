@@ -1,0 +1,265 @@
+# Package Metadata
+name: "Host Intro to ReFi Meetup"
+version: "1.0.0"
+type: "quick-start"
+difficulty: "accessible"
+last_updated: "2025-10-04"
+
+# Package Description
+description: "Complete package for launching your first ReFi community event and setting the stage for a thriving local ReFi Node"
+tldr: "Everything you need to organize and host a high-impact Intro to ReFi meetup — from planning to promotion to post-event follow-up"
+
+# Target Audience
+audience:
+  - "Community builders"
+  - "ReFi node leaders"
+  - "Event organizers"
+  - "Local coordinators"
+
+# Implementation Details
+implementation:
+  timeline: "2-4 weeks prep"
+  difficulty_level: "Accessible"
+  team_size: "1-3 people"
+  budget_range: "$100-500 USD"
+  time_commitment: "10-20 hours total"
+
+# Impact Areas
+impact:
+  primary:
+    - "Education"
+    - "Community Building"
+  secondary:
+    - "Network Coordination"
+    - "Social Capital"
+
+# Geographic & Chain Context
+context:
+  regions: ["Global"]
+  chains: ["Chain-agnostic"]
+  languages: ["en"]
+
+# Package Contents
+contents:
+  templates:
+    - name: "Event Planning Checklist"
+      path: "resources/templates/event-planning-checklist.md"
+      type: "checklist"
+      description: "Complete pre-event planning checklist"
+    
+    - name: "Event Budget Template"
+      path: "resources/templates/budget-template.md"
+      type: "spreadsheet-template"
+      description: "Detailed budget breakdown for meetup costs"
+    
+    - name: "RSVP Landing Page Template"
+      path: "resources/templates/rsvp-landing-page.md"
+      type: "document"
+      description: "Template for lu.ma or similar platforms"
+    
+    - name: "Social Media Promotion Guide"
+      path: "resources/templates/social-media-templates.md"
+      type: "document"
+      description: "Ready-to-use social media posts"
+    
+    - name: "Feedback Survey Template"
+      path: "resources/templates/feedback-survey.md"
+      type: "form"
+      description: "Post-event feedback collection"
+  
+  assets:
+    - name: "Intro to ReFi Slide Deck (Link)"
+      path: "resources/assets/slide-deck-info.md"
+      type: "presentation-link"
+      description: "Official ReFi DAO presentation materials"
+    
+    - name: "Event Poster Template (Guide)"
+      path: "resources/assets/poster-guide.md"
+      type: "guide"
+      description: "How to create event posters using Canva"
+    
+    - name: "Branding Guidelines"
+      path: "resources/assets/branding-guidelines.md"
+      type: "document"
+      description: "ReFi DAO logo usage and brand assets"
+  
+  examples:
+    - name: "ReFi Lisboa Meetup Example"
+      path: "resources/examples/refi-lisboa-example.md"
+      type: "case-reference"
+      description: "Real-world example from successful implementation"
+    
+    - name: "Sample Event Timeline"
+      path: "resources/examples/sample-timeline.md"
+      type: "example"
+      description: "Hour-by-hour event schedule"
+  
+  tools:
+    - name: "lu.ma"
+      url: "https://lu.ma"
+      purpose: "Event RSVP management"
+      type: "external"
+    
+    - name: "Canva"
+      url: "https://canva.com"
+      purpose: "Event poster design"
+      type: "external"
+    
+    - name: "Liberating Structures"
+      url: "https://www.liberatingstructures.com/"
+      purpose: "Interactive facilitation methods"
+      type: "external"
+    
+    - name: "Open Space Technology"
+      url: "https://openspaceworld.org/"
+      purpose: "Unconference facilitation"
+      type: "external"
+  
+  support:
+    - name: "Pre-Event Checklist"
+      path: "support/checklists/pre-event-checklist.md"
+      description: "2-4 weeks before event"
+    
+    - name: "Week-of Checklist"
+      path: "support/checklists/week-of-checklist.md"
+      description: "Final week preparations"
+    
+    - name: "Day-of-Event Checklist"
+      path: "support/checklists/day-of-checklist.md"
+      description: "Event day rundown"
+    
+    - name: "Post-Event Checklist"
+      path: "support/checklists/post-event-checklist.md"
+      description: "Follow-up actions"
+    
+    - name: "Venue Selection Guide"
+      path: "support/guides/venue-selection.md"
+      description: "How to choose the right venue"
+    
+    - name: "Promotion Strategy Guide"
+      path: "support/guides/promotion-strategy.md"
+      description: "Multi-channel promotion tactics"
+    
+    - name: "Content Capture Guide"
+      path: "support/guides/content-capture.md"
+      description: "Photo/video capture best practices"
+    
+    - name: "Facilitation Tips"
+      path: "support/guides/facilitation-tips.md"
+      description: "How to facilitate interactive discussions"
+
+# Dependencies & Prerequisites
+dependencies:
+  playbooks:
+    recommended: []
+  case_studies:
+    - "ReFi Lisboa - Local Node Journey"
+  frameworks: []
+  external_resources:
+    - name: "Liberating Structures"
+      url: "https://www.liberatingstructures.com/"
+      purpose: "Facilitation methods"
+    - name: "Open Space Technology"
+      url: "https://openspaceworld.org/"
+      purpose: "Unconference methods"
+
+prerequisites:
+  technical: "None"
+  experience: "Basic event organizing helpful but not required"
+  resources:
+    - "Venue (physical or virtual)"
+    - "Budget: $100-500 USD"
+    - "Time: 2-4 weeks prep + event day"
+
+# Authorship & Maintenance
+authorship:
+  lead_authors:
+    - "Monty"
+  contributors: []
+  maintainers:
+    - "luizfernando"
+  community: "ReFi DAO"
+  original_source: "Notion Content Database"
+  
+# Version History
+version_history:
+  - version: "1.0.0"
+    date: "2025-10-04"
+    changes: "Initial package creation from Notion draft"
+    migrated_from: "Host-Intro-To-ReFi-Meetup-NOTION.md"
+
+# Support & Contact
+support:
+  discord: "https://discord.gg/refidao"
+  telegram: "https://t.me/refidao"
+  twitter: "https://twitter.com/ReFiDAOist"
+  email: "community@refidao.com"
+  feedback_form: ""
+
+# Success Metrics
+metrics:
+  implementations: 0
+  active_communities: 0
+  downloads: 0
+  feedback_score: null
+  community_adaptations: 0
+  translations: ["en"]
+
+# Expected Outcomes
+outcomes:
+  immediate:
+    - "Successful first ReFi meetup executed"
+    - "Local community engaged and educated"
+    - "15-50 attendees (typical)"
+  
+  short_term:
+    - "Core team identified for ongoing coordination"
+    - "Social media presence established"
+    - "Momentum for follow-up events"
+  
+  long_term:
+    - "Active local ReFi node established"
+    - "Regular meetups and collaborations"
+    - "Projects and funding flowing to community"
+
+# Licensing
+license: "CC BY-SA 4.0"
+license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+attribution_required: true
+commercial_use: true
+derivatives_allowed: true
+share_alike: true
+
+# Quartz Metadata (for static site)
+quartz:
+  publish: true
+  draft: false
+  tags:
+    - "playbook"
+    - "accessible"
+    - "community-building"
+    - "education"
+    - "refi-fundamentals"
+    - "quick-start"
+  aliases:
+    - "Host Intro to ReFi Meetup"
+    - "ReFi Meetup Guide"
+    - "Community Event Planning"
+
+# Notion Database Properties (original source)
+notion:
+  content_stage: "🚀 Live"
+  difficulty_level: "🐣 Accessible"
+  type:
+    - "Playbook"
+  region:
+    - "🌍 Global"
+  impact_area:
+    - "📚 Education"
+    - "🤝 Social"
+  chain_deployment:
+    - "N/A"
+  status: "Draft"
+  published: true
+  last_edited: "2025-10-04"
+

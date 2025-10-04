@@ -70,13 +70,23 @@ Documentation for platform integrations, protocol partnerships, and ecosystem co
 
 ---
 
-## Current Status (January 2025)
+## Current Status (October 2025)
 
 **🚧 Under Active Development**
 
-This toolkit is being built collaboratively by the ReFi community. Current focus areas:
+This toolkit is being built collaboratively by the ReFi community through two complementary content streams:
+
+**📚 Published Content** - Extracted from ReFi DAO blog archives (16 items)  
+**📝 Draft Content** - Developed in Notion, marked with `-NOTION` suffix (3 items)
+
+Current focus areas:
 
 ### Recently Added ✅
+- **October 2025:** Complete Notion-Repository sync + content pipeline
+  - 3 new playbooks/case studies from Notion drafts
+  - Comprehensive content development pipeline (1000+ lines)
+  - Weekly sync protocol (20-30 minutes)
+  - Repository cleanup (removed 6 redundant files)
 - Complete repository structure and navigation system
 - ReFi-specific templates (case studies & playbooks) 
 - **ReFi DAO Blog Content Integration** - 100+ blog posts analyzed and categorized
@@ -158,7 +168,10 @@ We welcome contributions from the global ReFi community! Ways to contribute:
 - **Translate content** for international accessibility
 - **Test playbooks** with your community and provide feedback
 
-**See: [Contributing Guidelines](05-community/contributing.md)**
+**See:**
+- **[Content Development Pipeline](CONTENT-PIPELINE.md)** - Complete workflow for creating toolkit content
+- **[Contributing Guidelines](content/05-community/contributing.md)** - Community participation guide
+- **[Notion Sync Guide](NOTION-SYNC-GUIDE.md)** - Project management synchronization
 
 ---
 

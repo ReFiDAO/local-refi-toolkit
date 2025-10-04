@@ -158,7 +158,10 @@ We welcome contributions from the global ReFi community! Ways to contribute:
 - **Translate content** for international accessibility
 - **Test playbooks** with your community and provide feedback
 
-**See: [Contributing Guidelines](05-community/contributing.md)**
+**See:**
+- **[Content Development Pipeline](CONTENT-PIPELINE.md)** - Complete workflow for creating toolkit content
+- **[Contributing Guidelines](content/05-community/contributing.md)** - Community participation guide
+- **[Notion Sync Guide](NOTION-SYNC-GUIDE.md)** - Project management synchronization
 
 ---
 

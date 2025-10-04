@@ -1,207 +1,256 @@
-# Local ReFi Toolkit 🌱
-*Your guide to implementing regenerative finance in local communities*
+---
+title: "Local ReFi Toolkit"
+description: "Your collaborative guide to regenerating local ecosystems and economies with Web3 tools"
+enableToc: false
+cssclasses:
+  - landing-page
+---
 
-**Version:** 0.1.0 (Beta)  
-**Status:** Under Active Development  
-**Project:** Regen Coordination Council Initiative
+# 🧰 Local ReFi Toolkit
+
+*An open library of decentralized economic blueprints—designed by and for community builders*
+
+This collaborative, evolving resource documents how communities around the world are using Web3 tools to regenerate their local ecosystems and economies.
+
+> [!info] Quick Navigation
+> **Get Started:** [Understanding ReFi](/00-getting-started/Understanding-Regenerative-Finance) • [Browse Playbooks](/01-playbooks/) • [Explore Cases](/02-case-studies/) • [View Templates](/04-resources/templates/)
 
 ---
 
-## Quick Start
+## 📚 What's Inside
 
-- **[New to ReFi? Start Here](00-getting-started/Understanding-Regenerative-Finance.md)** - Complete introduction to regenerative finance
-- **[Assess Your Community](01-playbooks/quick-start/Community-ReFi-Assessment.md)** - Evaluate readiness and find your pathway (2-4 hours)
-- **[Browse Implementation Guides](01-playbooks/)** - Step-by-step guides from beginner to advanced
-- **[Explore Real-World Examples](02-case-studies/)** - Learn from 6 successful implementations across 4 continents
+> [!note] **📖 How-to Playbooks**
+> Step-by-step guides to launch local regenerative initiatives using Web3 tools. From beginner-friendly quick starts to advanced protocol implementations.
+> 
+> **[View Playbooks →](/01-playbooks/)**
 
----
+> [!note] **🌍 Case Studies**
+> Real-world examples of ReFi in action—what worked, what didn't, and what others can learn. From Lagos to Lisbon, Tanzania to Costa Rica.
+> 
+> **[Explore Cases →](/02-case-studies/)**
 
-## Find Your Path
-
-### 🚀 By Experience Level
-- **[Complete Beginner](00-getting-started/Understanding-Regenerative-Finance.md)** - Start your ReFi journey with foundational concepts
-- **[Ready to Assess](01-playbooks/quick-start/Community-ReFi-Assessment.md)** - Evaluate your community's readiness (2-4 hours)
-- **[Ready to Implement](01-playbooks/quick-start/)** - Start with immediate implementation guides (2-8 hours)
-- **[Advanced Implementation](01-playbooks/protocol-specific/)** - Technical protocol deployment (3-24 months)
-
-### 🌍 By Geographic Context
-- **[Costa Rica Example](02-case-studies/by-region/ReFi-Costa-Rica-Crypto-Philanthropy.md)** - Grassroots activism & Web3 education
-- **[Barcelona Example](02-case-studies/by-region/ReFi-Barcelona-Cooperative-Structure.md)** - Innovative cooperative governance
-- **[Tanzania Example](02-case-studies/by-region/ReFi-Tanzania-Community-Verification.md)** - Urban waste management with blockchain
-- **[All Regional Examples](02-case-studies/by-region/)** - Learn from diverse geographic contexts
-
-### 🔧 By Implementation Focus
-- **[Environmental Monitoring](01-playbooks/protocol-specific/Forest-Monitoring-Verification-Implementation.md)** - Forest MRV and verification systems
-- **[Community Funding](01-playbooks/protocol-specific/Quadratic-Funding-Implementation.md)** - Democratic funding mechanisms
-- **[Carbon Markets](01-playbooks/protocol-specific/Carbon-Credit-Development-Implementation.md)** - Carbon credit development and tokenization
-- **[Community Governance](01-playbooks/protocol-specific/Community-Verification-Systems-Implementation.md)** - Decentralized verification and governance
+> [!note] **🛠️ Templates & Workshops**
+> Tools to help new and existing projects scale their impact, educate their communities, and replicate successful models.
+> 
+> **[Get Templates →](/04-resources/templates/)**
 
 ---
 
-## Toolkit Structure
+## ✨ Featured Content in Development
 
-### 📚 [Playbooks](01-playbooks/)
-Step-by-step implementation guides organized by difficulty level and protocol type. Each playbook includes:
-- Clear learning objectives and prerequisites
-- Phase-by-phase implementation steps
-- Resource requirements and timeline
-- Success metrics and troubleshooting
-- Links to relevant case studies
+> [!tip] 🚀 Coming Soon to the Toolkit
 
-### 📖 [Case Studies](02-case-studies/)
-Real-world implementations with detailed analysis, organized by region, protocol, and impact type. Each case study includes:
-- Community context and challenges
-- Implementation journey and timeline
-- Results and impact measurement
-- Lessons learned and replication guidance
-- Contact information for direct learning
+> [!example] **🌿 Sarafu | Commitment Pooling**
+> *Community currencies & mutual credit systems*
+> 
+> Deploy community-owned economic systems that enable local exchange and regenerative value creation. Learn from Kenya's grassroots success.
+> 
+> **Status:** 👀 In Review • **Difficulty:** 🥸 Intermediate • **Chain:** Celo
 
-### 🏗️ [Frameworks](03-frameworks/)
-Foundational frameworks for community coordination, impact measurement, and governance structures that support ReFi implementations.
+> [!example] **🌳 Silvi Protocol | Web3 Tree Planting**
+> *On-chain environmental impact tracking*
+> 
+> Tokenize tree planting and forest restoration efforts with verifiable on-chain impact. Simple, accessible tools for environmental regeneration.
+> 
+> **Status:** 👀 In Review • **Difficulty:** 🐣 Accessible • **Chain:** Celo
 
-### 📊 [Resources](04-resources/)
-Curated collection of research, tools, templates, and supporting materials for ReFi implementation.
+> [!example] **🏡 Knowledge Gardens**
+> *Collaborative knowledge management*
+> 
+> Build interconnected knowledge bases that grow organically with your community. Digital gardens for local wisdom and coordination.
+> 
+> **Status:** 💡 Ideation • **Difficulty:** 🐣 Accessible • **Framework:** Quartz, Obsidian
 
-### 👥 [Community](05-community/)
-Information about contributors, coordination processes, and community events. Guidelines for participation and contribution.
-
-### 🔗 [Integration](06-integration/)
-Documentation for platform integrations, protocol partnerships, and ecosystem coordination.
+> [!success] **📚 Publish for Free | Quartz**
+> *Open-source static site generation*
+> 
+> Transform your Notion or Markdown notes into beautiful, fast websites—completely free. Perfect for public knowledge bases and community documentation.
+> 
+> **Status:** ✅ Published • **Difficulty:** 🥸 Intermediate • **Tools:** Quartz, GitHub Pages
+> 
+> **[View Guide →](https://quartz.jzhao.xyz)**
 
 ---
 
-## Current Status (January 2025)
+## 🎯 Who This Is For
 
-**🚧 Under Active Development**
+> [!abstract] **🌱 Normies / No Technical Background**
+> You don't need to be technical to start. Our quick-start guides help you:
+> - Assess your community's readiness
+> - Launch your first ReFi initiative
+> - Build local regenerative networks
+> - Learn as you go with peer support
+> 
+> **[Start Here →](/00-getting-started/Understanding-Regenerative-Finance)**
 
-This toolkit is being built collaboratively by the ReFi community. Current focus areas:
+> [!abstract] **🔧 Web3 Native Builders**
+> Already familiar with the ecosystem? Dive into:
+> - Protocol-specific implementation playbooks
+> - Advanced technical integrations
+> - Coordination frameworks at scale
+> - Community verification systems
+> 
+> **[View Technical Guides →](/01-playbooks/protocol-specific/)**
 
-### Recently Added ✅
-- Complete repository structure and navigation system
-- ReFi-specific templates (case studies & playbooks) 
-- **ReFi DAO Blog Content Integration** - 100+ blog posts analyzed and categorized
-- **6 Complete Case Studies** extracted from blog content:
-  - **[ReFi Lagos | Plastic Waste Management](02-case-studies/by-impact-type/ReFi-Lagos-Plastic-Waste-Management.md)** - Nigeria urban waste solutions
-  - **[ReFi Costa Rica | Crypto Philanthropy](02-case-studies/by-region/ReFi-Costa-Rica-Crypto-Philanthropy.md)** - Grassroots activism & Web3 education
-  - **[ReFi Barcelona | Cooperative Structure](02-case-studies/by-region/ReFi-Barcelona-Cooperative-Structure.md)** - Innovative governance systems
-  - **[ReFi Tanzania | Community Verification](02-case-studies/by-region/ReFi-Tanzania-Community-Verification.md)** - Blockchain verification systems
-  - **[ReFi Mexico | Impact Market Maker](02-case-studies/by-region/ReFi-Mexico-Impact-Market-Maker.md)** - Advanced Web3 technology innovation
-  - **[ReFi Sicilia | Reforestation Initiative](02-case-studies/by-region/ReFi-Sicilia-Reforestation-Initiative.md)** - Mediterranean ecosystem restoration
-- **4 Protocol-Specific Implementation Playbooks** extracted from technical blog content:
-  - **[Forest Monitoring & Verification](01-playbooks/protocol-specific/Forest-Monitoring-Verification-Implementation.md)** - Complete MRV system implementation
-  - **[Quadratic Funding Implementation](01-playbooks/protocol-specific/Quadratic-Funding-Implementation.md)** - Democratic funding mechanism deployment
-  - **[Carbon Credit Development & Tokenization](01-playbooks/protocol-specific/Carbon-Credit-Development-Implementation.md)** - Complete carbon credit development lifecycle
-  - **[Community Verification Systems](01-playbooks/protocol-specific/Community-Verification-Systems-Implementation.md)** - Decentralized community governance implementation
-- **2 Coordination Frameworks** providing organizational blueprints:
-  - **[Cooperative Web3 Governance Framework](03-frameworks/community-coordination/Cooperative-Web3-Governance-Framework.md)** - Hybrid governance combining cooperative principles with Web3 tools
-  - **[Community-Driven Impact Verification Framework](03-frameworks/impact-measurement/Community-Driven-Impact-Verification-Framework.md)** - Participatory impact measurement and community-based verification
-- **1 Educational Foundation** for ReFi newcomers:
-  - **[Understanding Regenerative Finance](00-getting-started/Understanding-Regenerative-Finance.md)** - Complete introduction to ReFi concepts, ecosystem, and participation pathways
-- **3 Quick Start Guides** for immediate implementation:
-  - **[Community ReFi Assessment](01-playbooks/quick-start/Community-ReFi-Assessment.md)** - Evaluate community readiness and identify optimal entry points (2-4 hours)
-  - **[Basic Impact Tracking](01-playbooks/quick-start/Basic-Impact-Tracking.md)** - Simple measurement systems for environmental and social impact (4-6 hours)
-  - **[Starting a Local ReFi Group](01-playbooks/quick-start/Starting-Local-ReFi-Group.md)** - Build community around regenerative finance concepts (6-8 hours)
-- Content integration strategy and processing framework proven at scale
+---
 
-### In Progress 🚧
-- [x] **Protocol-Specific Playbooks**: 4 complete implementation guides from technical blog content
-- [x] **Community Coordination Frameworks**: 2 complete organizational frameworks with multiple specializations
-- [x] **Educational Content**: 1 complete foundational guide with comprehensive ReFi introduction
-- [x] **Impact Measurement Frameworks**: 1 complete community verification framework with 3+ specialized frameworks in development
-- [x] **Quick Start Guides**: 3 complete essential guides providing comprehensive entry pathways
+## 🌐 Regen Coordination Ecosystem
+
+> *Regen Coordination is an evolving alliance of Web3 organizations united in fostering collaboration to drive ecological, social, and economic regeneration.*
+
+### Our Approach
+
+<div class="theory-cards">
+
+**🎯 Key Theories of Change**
+How we believe regenerative systems emerge and scale through local action and global coordination.
+
+**⭐ North Stars**  
+The guiding principles and long-term visions that orient our collective work toward systemic regeneration.
+
+**🤝 Ethereum Localism**  
+Bridging global decentralized infrastructure with local community needs and cultural contexts.
+
+**🌍 Network Partners**  
+Growing ecosystem of protocols, communities, and organizations building the regenerative economy together.
+
+</div>
+
+<details>
+<summary>Learn more about Regen Coordination →</summary>
+
+Regen Coordination brings together:
+- **Local ReFi Nodes** - Community-led regional implementations
+- **Protocol Partners** - Tools and infrastructure providers
+- **Academic Institutions** - Research and validation partners
+- **Impact Organizations** - Real-world implementation support
+
+Together, we're creating the infrastructure for a regenerative economy.
+
+</details>
+
+---
+
+## 🚀 Quick Start Paths
+
+> [!info] **By Experience Level**
+> 
+> - **[🐣 Complete Beginner](/00-getting-started/Understanding-Regenerative-Finance)** - Start your ReFi journey with foundational concepts
+> - **[⚡ Ready to Assess](/01-playbooks/quick-start/Community-ReFi-Assessment)** - Evaluate your community's readiness (2-4 hours)
+> - **[🏗️ Ready to Implement](/01-playbooks/quick-start/)** - Launch your first initiative with immediate impact guides (2-8 hours)
+> - **[🪖 Advanced Deployment](/01-playbooks/protocol-specific/)** - Technical protocol implementation (3-24 months)
+
+> [!info] **By Impact Area**
+> 
+> - **🌱 Environmental** - Forest monitoring, carbon credits, biodiversity tracking
+> - **🤝 Social** - Community governance, verification systems, local currencies
+> - **💰 Economic** - Quadratic funding, impact markets, regenerative value flows
+> - **🏛️ Governance** - Cooperative structures, DAO frameworks, participatory systems
+> - **📚 Education** - Knowledge sharing, community learning, peer-to-peer support
+
+---
+
+## 📊 Current Status
+
+> [!warning] **🚧 Under Active Development**
+> Last Updated: October 2025
+
+### What's Live ✅
+
+- ✅ **19 Content Pieces** across playbooks, case studies, and frameworks
+- ✅ **8-Stage Content Pipeline** with Notion integration
+- ✅ **5 Regions Covered** - Europe, Latin America, Africa, Asia-Pacific, Global
+- ✅ **3 Live Playbooks** from Notion development pipeline
+- ✅ **Professional Documentation** with 4000+ lines of guides
+
+### Recently Added (October 2025)
+
+- 🎨 **Enhanced Notion Database** with 5 new properties & 9 professional views
+- 🔄 **Notion ↔ Repo Sync** with weekly 20-30 min protocol
+- 📋 **Content Development Pipeline** with quality standards
+- 🗺️ **Frontmatter Mapping** - All Notion properties → Quartz YAML
+- 🧭 **Internal Dev Index** for documentation navigation
 
 ### Coming Next 📋
-- [ ] **Additional Quick Start Guides**: Simple Verification Systems, Beginner Web3 Setup
-- [ ] **Specialized Frameworks**: Impact measurement and cross-scale coordination approaches
-- [ ] **Translation & Localization**: Multi-language support for global accessibility
-- [ ] **Community Expansion**: Regional adaptation guides and cultural customization
+
+- 🌿 Sarafu Commitment Pooling playbook (In Review)
+- 🌳 Silvi Protocol implementation guide (In Review)
+- 🏡 Knowledge Gardens framework (Ideation)
+- 🌍 Additional regional case studies
+- 🌐 Multi-language support
 
 ---
 
-## How to Use This Toolkit
+## 💡 Other Resources
 
-### 🏘️ For Community Leaders & Organizers
-1. **[Start with Understanding ReFi](00-getting-started/Understanding-Regenerative-Finance.md)** - Build foundational knowledge
-2. **[Assess Your Community](01-playbooks/quick-start/Community-ReFi-Assessment.md)** - Evaluate readiness and identify pathways (2-4 hours)
-3. **[Explore Similar Cases](02-case-studies/)** - Learn from communities with similar contexts
-4. **[Begin Implementation](01-playbooks/quick-start/)** - Start with immediate impact guides
-5. **[Connect with Community](05-community/)** - Join global ReFi network for support
+Explore complementary toolkits and knowledge bases from the ecosystem:
 
-### 🔧 For Technical Practitioners & Builders
-1. **[Review Case Studies](02-case-studies/)** - Understand real-world implementations
-2. **[Choose Implementation Playbooks](01-playbooks/protocol-specific/)** - Select appropriate technical guides
-3. **[Apply Coordination Frameworks](03-frameworks/)** - Structure sustainable organizations
-4. **[Access Templates & Tools](04-resources/)** - Use proven implementation resources
-5. **[Contribute & Scale](05-community/)** - Share learnings and mentor others
+<div class="resources-grid">
 
-### ⚡ For Immediate Action (Start Today)
-1. **[Community ReFi Assessment](01-playbooks/quick-start/Community-ReFi-Assessment.md)** - 2-4 hours
-2. **[Basic Impact Tracking](01-playbooks/quick-start/Basic-Impact-Tracking.md)** - 4-6 hours  
-3. **[Starting a Local ReFi Group](01-playbooks/quick-start/Starting-Local-ReFi-Group.md)** - 6-8 hours
-4. **Join community coordination and peer learning**
+- 📊 **[Mapping MycoFi](https://docs.google.com/spreadsheets/d/1e9GK8bE_WMF9HS6x81FTWomJqbK5c7N8Q6RD3e8hgoA/)** - Comprehensive Web3 ecology mapping
+- 💊 **[Greenpill Local Regen Guides](https://greenpill.network/pdf/local-regen-guide.pdf)** - Regional regeneration playbooks
+- 🌱 **[Ethereum Localism Action Kit](https://v0-ethereumlocalism-website.vercel.app/)** - Knowledge garden for local Ethereum initiatives
+- 🏘️ **[ReFi Local Node Toolkit](/1000a8af4ed94c11806f5e9991499355)** - Node coordination resources
 
-### For Researchers & Developers
-1. **Review [Research resources](04-resources/research/)** for academic integration
-2. **Explore [Technical integration](06-integration/protocols/)** documentation
-3. **Contribute protocol-specific playbooks and updates**
-4. **Help translate research into practical implementation guides**
+</div>
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-We welcome contributions from the global ReFi community! Ways to contribute:
+This toolkit grows through community contribution. Join us:
 
-- **Share your implementation experience** as case studies
-- **Develop new playbooks** for missing protocols or contexts
-- **Review and improve existing content** for clarity and accuracy
-- **Translate content** for international accessibility
-- **Test playbooks** with your community and provide feedback
+<div class="contribute-grid">
 
-**See: [Contributing Guidelines](05-community/contributing.md)**
+**📝 Share Your Story**  
+Document your implementation experience as a case study
 
----
+**🛠️ Create Playbooks**  
+Develop guides for new protocols or contexts
 
-## Community & Support
+**✏️ Improve Content**  
+Review and enhance existing documentation
 
-### Connect with the Community
-- **Regen Coordination Council** - Strategic guidance and ecosystem coordination
-- **Local ReFi Node Network** - Regional implementation support
-- **Protocol Community Channels** - Technical support and updates
+**🌐 Translate**  
+Make content accessible in your language
 
-### Get Help
-- **Implementation Questions** - Community coordination channels
-- **Technical Support** - Protocol-specific support resources
-- **Content Issues** - GitHub issues and community feedback
+**🧪 Test & Feedback**  
+Try playbooks with your community and share learnings
 
-### Share Your Journey
-- **Success Stories** - Submit case studies of your implementations
-- **Lessons Learned** - Share challenges and solutions
-- **Resource Recommendations** - Suggest additions to the toolkit
+</div>
+
+**[Read Contributing Guide →](/05-community/contributing)** | **[View Dev Docs →](/INTERNAL-INDEX)** | **[Join Community →](/05-community/)**
 
 ---
 
-## Acknowledgments
+## 🔗 Connect & Support
 
-This toolkit is built by and for the regenerative finance community, with special recognition to:
+<div class="footer-links">
 
-- **ReFi DAO** for strategic vision and community coordination
-- **Regen Coordination Council** for ecosystem alignment and funding
-- **Local ReFi Nodes** worldwide for real-world implementation insights
-- **Protocol Teams** for technical documentation and support
-- **Academic Partners** for research translation and validation
+### Community Channels
+- **Regen Coordination Council** - Strategic guidance
+- **Local ReFi Node Network** - Regional support
+- **Protocol Communities** - Technical help
 
----
+### Get Involved
+- **[Notion Database](https://www.notion.so/2816ed0845cb813789fae2d15c9d39e3)** - Content pipeline
+- **[GitHub Repository](https://github.com/Clinamenic/GFEL)** - Source code
+- **[Dev Documentation](/INTERNAL-INDEX)** - Internal guides
 
-## License & Usage
-
-This toolkit is open source and available for community use under [Creative Commons Attribution-ShareAlike 4.0](LICENSE.md).
-
-**Attribution:** Please credit "Local ReFi Toolkit by Regen Coordination Council" when using or adapting content.
+</div>
 
 ---
 
-**Last Updated:** January 2025  
-**Next Review:** February 2025  
-**Maintainers:** Regen Coordination Council  
-**Contact:** [coordination@refi.community](mailto:coordination@refi.community) 
+<div class="acknowledgments">
+
+### 🙏 Built By the Community
+
+This toolkit is created by and for the regenerative finance community. Special thanks to **ReFi DAO**, **Regen Coordination Council**, **Local ReFi Nodes worldwide**, and all **contributors** making regenerative economics accessible to everyone.
+
+**License:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | **Maintained by:** Regen Coordination Council
+
+</div>
+
+---
+
+*Last Updated: October 2025 • [View All Updates](/PROGRESS-SUMMARY)*

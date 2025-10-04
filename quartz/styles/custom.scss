@@ -364,7 +364,7 @@ header .search .search-button p {
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: var(--secondary);
-  color: var(--dark);
+  color: var(--light);
   box-shadow: var(--shadow-sm);
   transition: background-color 0.2s ease;
   text-decoration: none;
@@ -373,6 +373,7 @@ header .search .search-button p {
 
 .button-primary:hover {
   background-color: var(--tertiary);
+  color: var(--light);
 }
 
 .mobile-nav-trigger {
@@ -447,8 +448,8 @@ header .search .search-button p {
 }
 
 .nav-menu-content a:hover {
-  background-color: var(--lightgray);
-  color: var(--tertiary);
+  background-color: var(--secondary);
+  color: var(--light);
 }
 
 .nav-menu-overlay {
@@ -472,8 +473,13 @@ header .search .search-button p {
   border-color: var(--darkgray);
 }
 
+.dark .nav-menu-content a {
+  color: var(--light);
+}
+
 .dark .nav-menu-content a:hover {
   background-color: var(--secondary);
+  color: var(--light);
 }
 
 /* Remove the mobile-specific classes we no longer need */

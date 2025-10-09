@@ -209,12 +209,26 @@ header {
   left: 0;
   right: 0;
   z-index: 100;
-  background-color: var(--light);
+  background-color: #E7DFD7;
   width: 100%;
   max-width: 750px;
   margin: 0.5rem auto 0rem auto;
   border: 1px solid var(--lightgray);
   border-radius: 4px;
+}
+
+/* Header navigation link styles */
+header .desktop-nav a,
+header .nav-menu-content a,
+header a[href="/"] p {
+  color: #214033 !important;
+  transition: color 0.2s ease;
+}
+
+header .desktop-nav a:hover,
+header .nav-menu-content a:hover {
+  color: #5C7064 !important;
+  background-color: transparent !important;
 }
 
 .header-wrapper {
@@ -412,7 +426,7 @@ header .search .search-button p {
   top: 100%;
   left: auto;
   right: 0rem;
-  background-color: var(--light);
+  background-color: #E7DFD7;
   z-index: 99;
   margin: 0;
   min-width: 200px;
@@ -498,27 +512,7 @@ header .search .search-button p {
 body {
   padding-top: 40px;
   position: relative;
-  
-  &::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    pointer-events: none;
-    opacity: 0.15;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='173.2' viewBox='0 0 100 173.2'%3E%3Cstyle%3E.dot%7Bfill:%23214033;fill-opacity:0.9;r:3.5%7D%3C/style%3E%3Cg%3E%3C!-- Hexagonal grid of dots (without lines) --%3E%3Ccircle class='dot' cx='25' cy='0' /%3E%3Ccircle class='dot' cx='75' cy='0' /%3E%3Ccircle class='dot' cx='0' cy='43.3' /%3E%3Ccircle class='dot' cx='50' cy='43.3' /%3E%3Ccircle class='dot' cx='100' cy='43.3' /%3E%3Ccircle class='dot' cx='25' cy='86.6' /%3E%3Ccircle class='dot' cx='75' cy='86.6' /%3E%3Ccircle class='dot' cx='0' cy='129.9' /%3E%3Ccircle class='dot' cx='50' cy='129.9' /%3E%3Ccircle class='dot' cx='100' cy='129.9' /%3E%3Ccircle class='dot' cx='25' cy='173.2' /%3E%3Ccircle class='dot' cx='75' cy='173.2' /%3E%3C/g%3E%3C/svg%3E");
-    background-size: 50px 86.6px;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position: center;
-  }
-  
-  &.dark::before {
-    opacity: 0.2;
-  }
+  background-color: #E7DFD7;
 }
 
 /* Fix the layout for the quartz-body container */
